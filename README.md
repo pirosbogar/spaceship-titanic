@@ -39,4 +39,4 @@ In this competition your task is to predict whether a passenger was transported 
 	Transported - The target. For each passenger, predict either True or False.
 
 # Solution
-After data cleaning and transformation I ended up using LazyPredict to find the best models. After tuning the hyperparameteres of the two best models I've chosen the better performing XGBoost Classifier.
+After data cleaning and transformation I ended up using LazyPredict to find the best models. After tuning the hyperparameteres of the two best models I've chosen the better performing XGBoost Classifier and achieved an accuracy of ~80%.
