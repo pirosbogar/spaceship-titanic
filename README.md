@@ -37,3 +37,6 @@ In this competition your task is to predict whether a passenger was transported 
 	PassengerId - Id for each passenger in the test set.
 
 	Transported - The target. For each passenger, predict either True or False.
+
+# Solution
+After data cleaning and transformation I ended up using LazyPredict to find the best models. After tuning the hyperparameteres of the two best models I've chosen the better performing XGBoost Classifier.
